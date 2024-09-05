@@ -20,7 +20,7 @@ export interface StripeIdentityVerificationSessionProps extends Omit<InputProps,
  * StripeのIdentityVerificationSessionコンポーネントをラップしたコンポーネント
  */
 export const StripeIdentityVerificationSession = ({ children, ...props }: PropsWithChildren<StripeIdentityVerificationSessionProps>) => {
-  const { nameId } = props
+  const { nameId, label, note, required = undefined, contentWidth, error } = props
 
   const { setValue, setError, trigger } = useFormContext()
 
@@ -67,14 +67,20 @@ export const StripeIdentityVerificationSession = ({ children, ...props }: PropsW
     console.log('StripeIdentity', session)
   }
 
-  return !isSubmitted ? (
-    <Button iconRight=">" type="button" onClick={handleClick}>
-      <span className="text-lg md:py-2 md:text-2xl">本人確認書類を提出する</span>
-    </Button>
-  ) : (
-    <div>
-      <p>本人確認書類の提出が完了しました。</p>
-      <p>本人確認ID: {identityId}</p>
-    </div>
+  return (
+    <InputBox nameId={nameId} label={label} note={note} required={required} error={error} contentWidth={contentWidth}>
+      {!isSubmitted ? (
+        <div className="max-w-md">
+          <Button iconRight=">" type="button" onClick={handleClick}>
+            <span className="text-lg md:py-2 md:text-2xl">本人確認書類を提出する</span>
+          </Button>
+        </div>
+      ) : (
+        <div>
+          <p>本人確認書類の提出が完了しました。</p>
+          <p>本人確認ID: {identityId}</p>
+        </div>
+      )}
+    </InputBox>
   )
 }

@@ -44,9 +44,7 @@ export const StripeInputContents: React.FC<StripeInputContentsProps> = (props) =
       <div className="mt-16">
         <HeadingCaption className="mb-8 text-lg md:text-xl">本人確認</HeadingCaption>
         <div className="space-y-5">
-          <div className="m-auto max-w-96">
-            <StripeIdentityVerificationSession nameId="stripeIdentity" label="カード情報" required={true} error={errors.stripeIdentity} />
-          </div>
+          <StripeIdentityVerificationSession nameId="stripeIdentity" label="本人確認" required={true} error={errors.stripeIdentity} />
         </div>
       </div>
     </>
