@@ -1,0 +1,107 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SelectControl デフォルト値が正しく設定されること 1`] = `
+<div>
+  <div
+    class="false space-y-2 false"
+  >
+    <div
+      class="space-y-2 false"
+    >
+      <div
+        class="flex w-full items-center justify-start gap-x-3"
+      >
+        <select
+          class="  block w-full rounded-md border-gray-500 py-2 pl-3 pr-7 text-sm md:py-3 md:pl-5 md:pr-9 md:text-base"
+          id="mySelect"
+        >
+          <option
+            label="Option 1"
+            value="option1"
+          >
+            Option 1
+          </option>
+          <option
+            label="Option 2"
+            value="option2"
+          >
+            Option 2
+          </option>
+          <option
+            label="Option 3"
+            value="option3"
+          >
+            Option 3
+          </option>
+        </select>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`SelectControl 正しくレンダリングされること 1`] = `
+<div>
+  <div
+    class="w-full flex-auto space-y-2 false"
+  >
+    <div
+      class="flex items-center justify-start gap-x-2"
+    >
+      <span
+        class="text-xs text-center px-1.5 md:px-3 py-1 rounded-md whitespace-nowrap bg-red text-white"
+      >
+        必須
+      </span>
+      <label
+        class="block text-sm font-bold"
+        for="mySelect"
+      >
+        マイセレクト
+      </label>
+    </div>
+    <div
+      class="space-y-2 false"
+    >
+      <div
+        class="flex w-full items-center justify-start gap-x-3"
+      >
+        <select
+          class="my-select bg-red-pale outline outline-red outline-2 -outline-offset-2 block w-full rounded-md border-gray-500 py-2 pl-3 pr-7 text-sm md:py-3 md:pl-5 md:pr-9 md:text-base"
+          id="mySelect"
+        >
+          <option
+            label="Option 1"
+            selected=""
+            value="option1"
+          >
+            Option 1
+          </option>
+          <option
+            label="Option 2"
+            value="option2"
+          >
+            Option 2
+          </option>
+          <option
+            label="Option 3"
+            value="option3"
+          >
+            Option 3
+          </option>
+        </select>
+      </div>
+      <ul>
+        <li
+          class="text-xs text-gray-700 before:me-1 ps-4 -indent-4 before:content-['※']"
+        >
+          オプションを選択してください
+        </li>
+      </ul>
+      <p
+        class="text-sm text-red"
+      />
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,1112 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CheckboxControl checkboxColorプロパティがblackの場合、正しくレンダリングされること 1`] = `
+<div
+  class="false space-y-2 false"
+>
+  <div
+    class="flex items-center justify-start gap-x-2"
+  >
+    <label
+      class="block text-sm font-bold"
+      for="checkboxField"
+    >
+      チェックボックスフィールド
+    </label>
+  </div>
+  <div
+    class="space-y-2 false"
+  >
+    <div
+      class="flex w-full items-center justify-start gap-x-3"
+    >
+      <div
+        class="flex-row false flex flex-wrap gap-3"
+      >
+        <div
+          class="false false"
+        >
+          <label
+            class=" inline-block relative pl-5  cursor-pointer"
+          >
+            <input
+              class="rounded focus:ring-transparent  absolute margin-auto top-1/2 transform -translate-y-1/2 left-0 checked:text-black focus:text-black "
+              type="checkbox"
+              value="option1"
+            />
+            <span
+              class="text-sm md:text-base"
+            >
+              オプション1
+            </span>
+          </label>
+        </div>
+        <div
+          class="false false"
+        >
+          <label
+            class=" inline-block relative pl-5  cursor-pointer"
+          >
+            <input
+              class="rounded focus:ring-transparent  absolute margin-auto top-1/2 transform -translate-y-1/2 left-0 checked:text-black focus:text-black "
+              type="checkbox"
+              value="option2"
+            />
+            <span
+              class="text-sm md:text-base"
+            >
+              オプション2
+            </span>
+          </label>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`CheckboxControl checkboxColorプロパティがblueの場合、正しくレンダリングされること 1`] = `
+<div
+  class="false space-y-2 false"
+>
+  <div
+    class="flex items-center justify-start gap-x-2"
+  >
+    <label
+      class="block text-sm font-bold"
+      for="checkboxField"
+    >
+      チェックボックスフィールド
+    </label>
+  </div>
+  <div
+    class="space-y-2 false"
+  >
+    <div
+      class="flex w-full items-center justify-start gap-x-3"
+    >
+      <div
+        class="flex-row false flex flex-wrap gap-3"
+      >
+        <div
+          class="false false"
+        >
+          <label
+            class=" inline-block relative pl-5  cursor-pointer"
+          >
+            <input
+              class="rounded focus:ring-transparent  absolute margin-auto top-1/2 transform -translate-y-1/2 left-0 checked:text-blue focus:text-blue "
+              type="checkbox"
+              value="option1"
+            />
+            <span
+              class="text-sm md:text-base"
+            >
+              オプション1
+            </span>
+          </label>
+        </div>
+        <div
+          class="false false"
+        >
+          <label
+            class=" inline-block relative pl-5  cursor-pointer"
+          >
+            <input
+              class="rounded focus:ring-transparent  absolute margin-auto top-1/2 transform -translate-y-1/2 left-0 checked:text-blue focus:text-blue "
+              type="checkbox"
+              value="option2"
+            />
+            <span
+              class="text-sm md:text-base"
+            >
+              オプション2
+            </span>
+          </label>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`CheckboxControl checkboxColorプロパティがgrayの場合、正しくレンダリングされること 1`] = `
+<div
+  class="false space-y-2 false"
+>
+  <div
+    class="flex items-center justify-start gap-x-2"
+  >
+    <label
+      class="block text-sm font-bold"
+      for="checkboxField"
+    >
+      チェックボックスフィールド
+    </label>
+  </div>
+  <div
+    class="space-y-2 false"
+  >
+    <div
+      class="flex w-full items-center justify-start gap-x-3"
+    >
+      <div
+        class="flex-row false flex flex-wrap gap-3"
+      >
+        <div
+          class="false false"
+        >
+          <label
+            class=" inline-block relative pl-5  cursor-pointer"
+          >
+            <input
+              class="rounded focus:ring-transparent  absolute margin-auto top-1/2 transform -translate-y-1/2 left-0 checked:text-gray-700 focus:text-gray-700 "
+              type="checkbox"
+              value="option1"
+            />
+            <span
+              class="text-sm md:text-base"
+            >
+              オプション1
+            </span>
+          </label>
+        </div>
+        <div
+          class="false false"
+        >
+          <label
+            class=" inline-block relative pl-5  cursor-pointer"
+          >
+            <input
+              class="rounded focus:ring-transparent  absolute margin-auto top-1/2 transform -translate-y-1/2 left-0 checked:text-gray-700 focus:text-gray-700 "
+              type="checkbox"
+              value="option2"
+            />
+            <span
+              class="text-sm md:text-base"
+            >
+              オプション2
+            </span>
+          </label>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`CheckboxControl checkboxColorプロパティがredの場合、正しくレンダリングされること 1`] = `
+<div
+  class="false space-y-2 false"
+>
+  <div
+    class="flex items-center justify-start gap-x-2"
+  >
+    <label
+      class="block text-sm font-bold"
+      for="checkboxField"
+    >
+      チェックボックスフィールド
+    </label>
+  </div>
+  <div
+    class="space-y-2 false"
+  >
+    <div
+      class="flex w-full items-center justify-start gap-x-3"
+    >
+      <div
+        class="flex-row false flex flex-wrap gap-3"
+      >
+        <div
+          class="false false"
+        >
+          <label
+            class=" inline-block relative pl-5  cursor-pointer"
+          >
+            <input
+              class="rounded focus:ring-transparent  absolute margin-auto top-1/2 transform -translate-y-1/2 left-0 checked:text-red focus:text-red "
+              type="checkbox"
+              value="option1"
+            />
+            <span
+              class="text-sm md:text-base"
+            >
+              オプション1
+            </span>
+          </label>
+        </div>
+        <div
+          class="false false"
+        >
+          <label
+            class=" inline-block relative pl-5  cursor-pointer"
+          >
+            <input
+              class="rounded focus:ring-transparent  absolute margin-auto top-1/2 transform -translate-y-1/2 left-0 checked:text-red focus:text-red "
+              type="checkbox"
+              value="option2"
+            />
+            <span
+              class="text-sm md:text-base"
+            >
+              オプション2
+            </span>
+          </label>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`CheckboxControl checkboxPositionプロパティがcenterの場合、正しくレンダリングされること 1`] = `
+<div
+  class="false space-y-2 false"
+>
+  <div
+    class="flex items-center justify-start gap-x-2"
+  >
+    <label
+      class="block text-sm font-bold"
+      for="checkboxField"
+    >
+      チェックボックスフィールド
+    </label>
+  </div>
+  <div
+    class="space-y-2 false"
+  >
+    <div
+      class="flex w-full items-center justify-start gap-x-3"
+    >
+      <div
+        class="flex-row false flex flex-wrap gap-3"
+      >
+        <div
+          class="false false"
+        >
+          <label
+            class=" inline-block relative pl-5  cursor-pointer"
+          >
+            <input
+              class="rounded focus:ring-transparent  absolute margin-auto top-1/2 transform -translate-y-1/2 left-0 checked:text-blue focus:text-blue "
+              type="checkbox"
+              value="option1"
+            />
+            <span
+              class="text-sm md:text-base"
+            >
+              オプション1
+            </span>
+          </label>
+        </div>
+        <div
+          class="false false"
+        >
+          <label
+            class=" inline-block relative pl-5  cursor-pointer"
+          >
+            <input
+              class="rounded focus:ring-transparent  absolute margin-auto top-1/2 transform -translate-y-1/2 left-0 checked:text-blue focus:text-blue "
+              type="checkbox"
+              value="option2"
+            />
+            <span
+              class="text-sm md:text-base"
+            >
+              オプション2
+            </span>
+          </label>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`CheckboxControl checkboxPositionプロパティがhiddenの場合、正しくレンダリングされること 1`] = `
+<div
+  class="false space-y-2 false"
+>
+  <div
+    class="flex items-center justify-start gap-x-2"
+  >
+    <label
+      class="block text-sm font-bold"
+      for="checkboxField"
+    >
+      チェックボックスフィールド
+    </label>
+  </div>
+  <div
+    class="space-y-2 false"
+  >
+    <div
+      class="flex w-full items-center justify-start gap-x-3"
+    >
+      <div
+        class="flex-row false flex flex-wrap gap-3"
+      >
+        <div
+          class="false false"
+        >
+          <label
+            class=" inline-block relative pl-5  cursor-pointer"
+          >
+            <input
+              class="rounded focus:ring-transparent hidden left-0 checked:text-blue focus:text-blue "
+              type="checkbox"
+              value="option1"
+            />
+            <span
+              class="text-sm md:text-base"
+            >
+              オプション1
+            </span>
+          </label>
+        </div>
+        <div
+          class="false false"
+        >
+          <label
+            class=" inline-block relative pl-5  cursor-pointer"
+          >
+            <input
+              class="rounded focus:ring-transparent hidden left-0 checked:text-blue focus:text-blue "
+              type="checkbox"
+              value="option2"
+            />
+            <span
+              class="text-sm md:text-base"
+            >
+              オプション2
+            </span>
+          </label>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`CheckboxControl checkboxPositionプロパティがtopでlabelTypeプロパティがcardの場合、正しくレンダリングされること 1`] = `
+<div
+  class="false space-y-2 false"
+>
+  <div
+    class="flex items-center justify-start gap-x-2"
+  >
+    <label
+      class="block text-sm font-bold"
+      for="checkboxField"
+    >
+      チェックボックスフィールド
+    </label>
+  </div>
+  <div
+    class="space-y-2 false"
+  >
+    <div
+      class="flex w-full items-center justify-start gap-x-3"
+    >
+      <div
+        class="flex-row false flex flex-wrap gap-3"
+      >
+        <div
+          class="false false"
+        >
+          <label
+            class=" inline-block relative pl-5  cursor-pointer"
+          >
+            <input
+              class="rounded focus:ring-transparent  absolute margin-auto top-1 left-0 checked:text-blue focus:text-blue "
+              type="checkbox"
+              value="option1"
+            />
+            <span
+              class="text-sm md:text-base"
+            >
+              オプション1
+            </span>
+          </label>
+        </div>
+        <div
+          class="false false"
+        >
+          <label
+            class=" inline-block relative pl-5  cursor-pointer"
+          >
+            <input
+              class="rounded focus:ring-transparent  absolute margin-auto top-1 left-0 checked:text-blue focus:text-blue "
+              type="checkbox"
+              value="option2"
+            />
+            <span
+              class="text-sm md:text-base"
+            >
+              オプション2
+            </span>
+          </label>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`CheckboxControl checkboxPositionプロパティがtopでlabelTypeプロパティがdefaultの場合、正しくレンダリングされること 1`] = `
+<div
+  class="false space-y-2 false"
+>
+  <div
+    class="flex items-center justify-start gap-x-2"
+  >
+    <label
+      class="block text-sm font-bold"
+      for="checkboxField"
+    >
+      チェックボックスフィールド
+    </label>
+  </div>
+  <div
+    class="space-y-2 false"
+  >
+    <div
+      class="flex w-full items-center justify-start gap-x-3"
+    >
+      <div
+        class="flex-row false flex flex-wrap gap-3"
+      >
+        <div
+          class="false false"
+        >
+          <label
+            class=" inline-block relative pl-5  cursor-pointer"
+          >
+            <input
+              class="rounded focus:ring-transparent  absolute margin-auto top-1 left-0 checked:text-blue focus:text-blue "
+              type="checkbox"
+              value="option1"
+            />
+            <span
+              class="text-sm md:text-base"
+            >
+              オプション1
+            </span>
+          </label>
+        </div>
+        <div
+          class="false false"
+        >
+          <label
+            class=" inline-block relative pl-5  cursor-pointer"
+          >
+            <input
+              class="rounded focus:ring-transparent  absolute margin-auto top-1 left-0 checked:text-blue focus:text-blue "
+              type="checkbox"
+              value="option2"
+            />
+            <span
+              class="text-sm md:text-base"
+            >
+              オプション2
+            </span>
+          </label>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`CheckboxControl directionがrowでcontentWidthがfullの場合、正しくレンダリングされること 1`] = `
+<div
+  class="w-full flex-auto space-y-2 false"
+>
+  <div
+    class="flex items-center justify-start gap-x-2"
+  >
+    <label
+      class="block text-sm font-bold"
+      for="checkboxField"
+    >
+      チェックボックスフィールド
+    </label>
+  </div>
+  <div
+    class="space-y-2 false"
+  >
+    <div
+      class="flex w-full items-center justify-start gap-x-3"
+    >
+      <div
+        class="flex-row w-full flex flex-wrap gap-3"
+      >
+        <div
+          class="false flex-auto"
+        >
+          <label
+            class=" inline-block relative pl-5  cursor-pointer"
+          >
+            <input
+              class="rounded focus:ring-transparent  absolute margin-auto top-1/2 transform -translate-y-1/2 left-0 checked:text-blue focus:text-blue "
+              type="checkbox"
+              value="option1"
+            />
+            <span
+              class="text-sm md:text-base"
+            >
+              オプション1
+            </span>
+          </label>
+        </div>
+        <div
+          class="false flex-auto"
+        >
+          <label
+            class=" inline-block relative pl-5  cursor-pointer"
+          >
+            <input
+              class="rounded focus:ring-transparent  absolute margin-auto top-1/2 transform -translate-y-1/2 left-0 checked:text-blue focus:text-blue "
+              type="checkbox"
+              value="option2"
+            />
+            <span
+              class="text-sm md:text-base"
+            >
+              オプション2
+            </span>
+          </label>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`CheckboxControl directionプロパティがcolの場合、正しくレンダリングされること 1`] = `
+<div
+  class="false space-y-2 false"
+>
+  <div
+    class="flex items-center justify-start gap-x-2"
+  >
+    <label
+      class="block text-sm font-bold"
+      for="checkboxField"
+    >
+      チェックボックスフィールド
+    </label>
+  </div>
+  <div
+    class="space-y-2 false"
+  >
+    <div
+      class="flex w-full items-center justify-start gap-x-3"
+    >
+      <div
+        class="flex-col false flex flex-wrap gap-3"
+      >
+        <div
+          class="w-full false"
+        >
+          <label
+            class=" inline-block relative pl-5  cursor-pointer"
+          >
+            <input
+              class="rounded focus:ring-transparent  absolute margin-auto top-1/2 transform -translate-y-1/2 left-0 checked:text-blue focus:text-blue "
+              type="checkbox"
+              value="option1"
+            />
+            <span
+              class="text-sm md:text-base"
+            >
+              オプション1
+            </span>
+          </label>
+        </div>
+        <div
+          class="w-full false"
+        >
+          <label
+            class=" inline-block relative pl-5  cursor-pointer"
+          >
+            <input
+              class="rounded focus:ring-transparent  absolute margin-auto top-1/2 transform -translate-y-1/2 left-0 checked:text-blue focus:text-blue "
+              type="checkbox"
+              value="option2"
+            />
+            <span
+              class="text-sm md:text-base"
+            >
+              オプション2
+            </span>
+          </label>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`CheckboxControl directionプロパティがrowの場合、正しくレンダリングされること 1`] = `
+<div
+  class="false space-y-2 false"
+>
+  <div
+    class="flex items-center justify-start gap-x-2"
+  >
+    <label
+      class="block text-sm font-bold"
+      for="checkboxField"
+    >
+      チェックボックスフィールド
+    </label>
+  </div>
+  <div
+    class="space-y-2 false"
+  >
+    <div
+      class="flex w-full items-center justify-start gap-x-3"
+    >
+      <div
+        class="flex-row false flex flex-wrap gap-3"
+      >
+        <div
+          class="false false"
+        >
+          <label
+            class=" inline-block relative pl-5  cursor-pointer"
+          >
+            <input
+              class="rounded focus:ring-transparent  absolute margin-auto top-1/2 transform -translate-y-1/2 left-0 checked:text-blue focus:text-blue "
+              type="checkbox"
+              value="option1"
+            />
+            <span
+              class="text-sm md:text-base"
+            >
+              オプション1
+            </span>
+          </label>
+        </div>
+        <div
+          class="false false"
+        >
+          <label
+            class=" inline-block relative pl-5  cursor-pointer"
+          >
+            <input
+              class="rounded focus:ring-transparent  absolute margin-auto top-1/2 transform -translate-y-1/2 left-0 checked:text-blue focus:text-blue "
+              type="checkbox"
+              value="option2"
+            />
+            <span
+              class="text-sm md:text-base"
+            >
+              オプション2
+            </span>
+          </label>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`CheckboxControl labelTypeプロパティがcardでerrorがtrueの場合、正しくレンダリングされること 1`] = `
+<div
+  class="false space-y-2 false"
+>
+  <div
+    class="flex items-center justify-start gap-x-2"
+  >
+    <label
+      class="block text-sm font-bold"
+      for="checkboxField"
+    >
+      チェックボックスフィールド
+    </label>
+  </div>
+  <div
+    class="space-y-2 false"
+  >
+    <div
+      class="flex w-full items-center justify-start gap-x-3"
+    >
+      <div
+        class="flex-row false flex flex-wrap gap-3"
+      >
+        <div
+          class="false false"
+        >
+          <label
+            class=" inline-block relative pl-5  text-red cursor-pointer"
+          >
+            <input
+              class="rounded focus:ring-transparent  absolute margin-auto top-1/2 transform -translate-y-1/2 left-0 checked:text-blue focus:text-blue  bg-red-pale text-red border-red"
+              type="checkbox"
+              value="option1"
+            />
+            <span
+              class="text-sm md:text-base"
+            >
+              オプション1
+            </span>
+          </label>
+        </div>
+        <div
+          class="false false"
+        >
+          <label
+            class=" inline-block relative pl-5  text-red cursor-pointer"
+          >
+            <input
+              class="rounded focus:ring-transparent  absolute margin-auto top-1/2 transform -translate-y-1/2 left-0 checked:text-blue focus:text-blue  bg-red-pale text-red border-red"
+              type="checkbox"
+              value="option2"
+            />
+            <span
+              class="text-sm md:text-base"
+            >
+              オプション2
+            </span>
+          </label>
+        </div>
+      </div>
+    </div>
+    <p
+      class="text-sm text-red"
+    />
+  </div>
+</div>
+`;
+
+exports[`CheckboxControl labelTypeプロパティがcardの場合、正しくレンダリングされること 1`] = `
+<div
+  class="false space-y-2 false"
+>
+  <div
+    class="flex items-center justify-start gap-x-2"
+  >
+    <label
+      class="block text-sm font-bold"
+      for="checkboxField"
+    >
+      チェックボックスフィールド
+    </label>
+  </div>
+  <div
+    class="space-y-2 false"
+  >
+    <div
+      class="flex w-full items-center justify-start gap-x-3"
+    >
+      <div
+        class="flex-row false flex flex-wrap gap-3"
+      >
+        <div
+          class="false false"
+        >
+          <label
+            class=" inline-block relative pl-5  cursor-pointer"
+          >
+            <input
+              class="rounded focus:ring-transparent  absolute margin-auto top-1/2 transform -translate-y-1/2 left-0 checked:text-blue focus:text-blue "
+              type="checkbox"
+              value="option1"
+            />
+            <span
+              class="text-sm md:text-base"
+            >
+              オプション1
+            </span>
+          </label>
+        </div>
+        <div
+          class="false false"
+        >
+          <label
+            class=" inline-block relative pl-5  cursor-pointer"
+          >
+            <input
+              class="rounded focus:ring-transparent  absolute margin-auto top-1/2 transform -translate-y-1/2 left-0 checked:text-blue focus:text-blue "
+              type="checkbox"
+              value="option2"
+            />
+            <span
+              class="text-sm md:text-base"
+            >
+              オプション2
+            </span>
+          </label>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`CheckboxControl labelTypeプロパティがdefaultでerrorがtrueの場合、正しくレンダリングされること 1`] = `
+<div
+  class="false space-y-2 false"
+>
+  <div
+    class="flex items-center justify-start gap-x-2"
+  >
+    <label
+      class="block text-sm font-bold"
+      for="checkboxField"
+    >
+      チェックボックスフィールド
+    </label>
+  </div>
+  <div
+    class="space-y-2 false"
+  >
+    <div
+      class="flex w-full items-center justify-start gap-x-3"
+    >
+      <div
+        class="flex-row false flex flex-wrap gap-3"
+      >
+        <div
+          class="false false"
+        >
+          <label
+            class=" inline-block relative pl-5  text-red cursor-pointer"
+          >
+            <input
+              class="rounded focus:ring-transparent  absolute margin-auto top-1/2 transform -translate-y-1/2 left-0 checked:text-blue focus:text-blue  bg-red-pale text-red border-red"
+              type="checkbox"
+              value="option1"
+            />
+            <span
+              class="text-sm md:text-base"
+            >
+              オプション1
+            </span>
+          </label>
+        </div>
+        <div
+          class="false false"
+        >
+          <label
+            class=" inline-block relative pl-5  text-red cursor-pointer"
+          >
+            <input
+              class="rounded focus:ring-transparent  absolute margin-auto top-1/2 transform -translate-y-1/2 left-0 checked:text-blue focus:text-blue  bg-red-pale text-red border-red"
+              type="checkbox"
+              value="option2"
+            />
+            <span
+              class="text-sm md:text-base"
+            >
+              オプション2
+            </span>
+          </label>
+        </div>
+      </div>
+    </div>
+    <p
+      class="text-sm text-red"
+    />
+  </div>
+</div>
+`;
+
+exports[`CheckboxControl labelTypeプロパティがdefaultの場合、正しくレンダリングされること 1`] = `
+<div
+  class="false space-y-2 false"
+>
+  <div
+    class="flex items-center justify-start gap-x-2"
+  >
+    <label
+      class="block text-sm font-bold"
+      for="checkboxField"
+    >
+      チェックボックスフィールド
+    </label>
+  </div>
+  <div
+    class="space-y-2 false"
+  >
+    <div
+      class="flex w-full items-center justify-start gap-x-3"
+    >
+      <div
+        class="flex-row false flex flex-wrap gap-3"
+      >
+        <div
+          class="false false"
+        >
+          <label
+            class=" inline-block relative pl-5  cursor-pointer"
+          >
+            <input
+              class="rounded focus:ring-transparent  absolute margin-auto top-1/2 transform -translate-y-1/2 left-0 checked:text-blue focus:text-blue "
+              type="checkbox"
+              value="option1"
+            />
+            <span
+              class="text-sm md:text-base"
+            >
+              オプション1
+            </span>
+          </label>
+        </div>
+        <div
+          class="false false"
+        >
+          <label
+            class=" inline-block relative pl-5  cursor-pointer"
+          >
+            <input
+              class="rounded focus:ring-transparent  absolute margin-auto top-1/2 transform -translate-y-1/2 left-0 checked:text-blue focus:text-blue "
+              type="checkbox"
+              value="option2"
+            />
+            <span
+              class="text-sm md:text-base"
+            >
+              オプション2
+            </span>
+          </label>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`CheckboxControl listsにcheckboxClassName labelClassNameプロパティが指定されている場合、正しくレンダリングされること 1`] = `
+<div
+  class="false space-y-2 false"
+>
+  <div
+    class="flex items-center justify-start gap-x-2"
+  >
+    <label
+      class="block text-sm font-bold"
+      for="checkboxField"
+    >
+      チェックボックスフィールド
+    </label>
+  </div>
+  <div
+    class="space-y-2 false"
+  >
+    <div
+      class="flex w-full items-center justify-start gap-x-3"
+    >
+      <div
+        class="flex-row false flex flex-wrap gap-3"
+      >
+        <div
+          class="false false"
+        >
+          <label
+            class="custom-label inline-block relative pl-5  cursor-pointer"
+          >
+            <input
+              class="rounded focus:ring-transparent custom-checkbox absolute margin-auto top-1/2 transform -translate-y-1/2 left-0 checked:text-blue focus:text-blue "
+              type="checkbox"
+              value="option1"
+            />
+            <span
+              class="text-sm md:text-base"
+            >
+              オプション1
+            </span>
+          </label>
+        </div>
+        <div
+          class="false false"
+        >
+          <label
+            class="custom-label inline-block relative pl-5  cursor-pointer"
+          >
+            <input
+              class="rounded focus:ring-transparent custom-checkbox absolute margin-auto top-1/2 transform -translate-y-1/2 left-0 checked:text-blue focus:text-blue "
+              type="checkbox"
+              value="option2"
+            />
+            <span
+              class="text-sm md:text-base"
+            >
+              オプション2
+            </span>
+          </label>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`CheckboxControl 正しくレンダリングされること 1`] = `
+<div
+  class="false space-y-2 false"
+>
+  <div
+    class="flex items-center justify-start gap-x-2"
+  >
+    <label
+      class="block text-sm font-bold"
+      for="checkboxField"
+    >
+      チェックボックスフィールド
+    </label>
+  </div>
+  <div
+    class="space-y-2 false"
+  >
+    <div
+      class="flex w-full items-center justify-start gap-x-3"
+    >
+      <div
+        class="flex-row false flex flex-wrap gap-3"
+      >
+        <div
+          class="false false"
+        >
+          <label
+            class=" inline-block relative pl-5  cursor-pointer"
+          >
+            <input
+              class="rounded focus:ring-transparent  absolute margin-auto top-1/2 transform -translate-y-1/2 left-0 checked:text-blue focus:text-blue "
+              type="checkbox"
+              value="option1"
+            />
+            <span
+              class="text-sm md:text-base"
+            >
+              オプション1
+            </span>
+          </label>
+        </div>
+        <div
+          class="false false"
+        >
+          <label
+            class=" inline-block relative pl-5  cursor-pointer"
+          >
+            <input
+              class="rounded focus:ring-transparent  absolute margin-auto top-1/2 transform -translate-y-1/2 left-0 checked:text-blue focus:text-blue "
+              type="checkbox"
+              value="option2"
+            />
+            <span
+              class="text-sm md:text-base"
+            >
+              オプション2
+            </span>
+          </label>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

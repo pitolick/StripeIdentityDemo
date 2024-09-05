@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Checkbox デフォルト値が正しく設定されること 1`] = `
+<div>
+  <label
+    class=" cursor-pointer"
+  >
+    <input
+      class="rounded focus:ring-transparent "
+      id="my-checkbox"
+      type="checkbox"
+    />
+  </label>
+</div>
+`;
+
+exports[`Checkbox 正しくレンダリングされること 1`] = `
+<div>
+  <label
+    class="custom-label cursor-pointer"
+  >
+    <input
+      class="rounded focus:ring-transparent custom-checkbox"
+      id="my-checkbox"
+      label="チェックボックス"
+      type="checkbox"
+    />
+    <span
+      class="text-sm md:text-base"
+    >
+      ラベルコンテンツ
+    </span>
+  </label>
+</div>
+`;

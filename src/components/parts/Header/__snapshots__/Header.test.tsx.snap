@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Headerコンポーネント isFixedがfalseの場合、fixedクラスが追加されないこと 1`] = `
+<div>
+  <header
+    class=""
+    id="header"
+  />
+</div>
+`;
+
+exports[`Headerコンポーネント isFixedがtrueの場合、fixedクラスが追加されること 1`] = `
+<div>
+  <header
+    class="fixed top-0 left-0 w-full z-50"
+    id="header"
+  />
+</div>
+`;
+
+exports[`Headerコンポーネント 子要素が正しく表示されること 1`] = `
+<div>
+  <header
+    class=""
+    id="header"
+  >
+    <div>
+      テスト
+    </div>
+  </header>
+</div>
+`;

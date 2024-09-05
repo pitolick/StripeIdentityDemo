@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Select コンポーネント classNameプロパティが指定された場合、正しく適用されること 1`] = `
+<div>
+  <select
+    class="text-red block w-full rounded-md border-gray-500 py-2 pl-3 pr-7 text-sm md:py-3 md:pl-5 md:pr-9 md:text-base"
+  >
+    <option
+      label="Option 1"
+      selected=""
+      value="option1"
+    >
+      Option 1
+    </option>
+    <option
+      label="Option 2"
+      value="option2"
+    >
+      Option 2
+    </option>
+    <option
+      label="Option 3"
+      value="option3"
+    >
+      Option 3
+    </option>
+  </select>
+</div>
+`;
+
+exports[`Select コンポーネント 正しくレンダリングされること 1`] = `
+<div>
+  <select
+    class=" block w-full rounded-md border-gray-500 py-2 pl-3 pr-7 text-sm md:py-3 md:pl-5 md:pr-9 md:text-base"
+  >
+    <option
+      label="Option 1"
+      selected=""
+      value="option1"
+    >
+      Option 1
+    </option>
+    <option
+      label="Option 2"
+      value="option2"
+    >
+      Option 2
+    </option>
+    <option
+      label="Option 3"
+      value="option3"
+    >
+      Option 3
+    </option>
+  </select>
+</div>
+`;

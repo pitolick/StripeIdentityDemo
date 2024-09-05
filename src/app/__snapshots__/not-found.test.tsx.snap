@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DefaultLayoutコンポーネント 正しくレンダリングされること 1`] = `
+<div>
+  <main
+    id="main"
+  >
+    <div
+      class="container py-14"
+    >
+      <div>
+        <p>
+          リクエストされたページは見つかりませんでした。
+          <br />
+          お探しのページは削除されたか、
+          <br />
+          URLが変更された可能性があります。
+        </p>
+      </div>
+    </div>
+  </main>
+</div>
+`;
+
+exports[`NotFoundLayoutコンポーネント 正しくレンダリングされること 1`] = `
+<div>
+  <main
+    id="main"
+  >
+    <div
+      class="container py-14"
+    >
+      <div>
+        <p>
+          リクエストされたページは見つかりませんでした。
+          <br />
+          お探しのページは削除されたか、
+          <br />
+          URLが変更された可能性があります。
+        </p>
+      </div>
+    </div>
+  </main>
+</div>
+`;

@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+/**
+ * Extracting classes
+ */
+@layer components {
+  /**
+   * Note
+   */
+  .note-ol {
+    counter-increment: count 1;
+    @apply before:content-['※'counter(count)];
+  }
+
+  /**
+   * 改行
+   * @see https://1-notes.com/css-wrap-setting-in-japanese/
+   */
+  .break-japanese {
+    @apply break-words break-keep;
+  }
+}

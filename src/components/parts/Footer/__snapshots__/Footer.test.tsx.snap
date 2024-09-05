@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footerコンポーネント 正しくレンダリングされること 1`] = `
+<div>
+  <footer
+    class="mt-auto"
+    id="footer"
+  >
+    <div>
+      フッターの子要素
+    </div>
+  </footer>
+</div>
+`;

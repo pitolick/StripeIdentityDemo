@@ -1,0 +1,231 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LinkButton class名が正しく設定されること 1`] = `
+<div>
+  <a
+    class="text-red"
+    href="test"
+  >
+    テストボタン
+  </a>
+</div>
+`;
+
+exports[`LinkButton colorが灰色でbuttonStyleがoutlineの場合、正しくレンダリングされること 1`] = `
+<div>
+  <a
+    class="
+        w-full border-gray-500 text-gray-500 bg-white hover:border-transparent hover:text-gray-900 hover:bg-gray-500 group relative inline-flex items-center justify-center gap-2 rounded-md border-2 px-10 py-2.5 text-base  font-bold transition-all
+      "
+    href="test"
+  >
+    テストボタン
+  </a>
+</div>
+`;
+
+exports[`LinkButton colorが灰色でbuttonStyleがsolidの場合、正しくレンダリングされること 1`] = `
+<div>
+  <a
+    class="
+        w-full border-transparent text-gray-900 bg-gray-500 hover:bg-gray-300 group relative inline-flex items-center justify-center gap-2 rounded-md border-2 px-10 py-2.5 text-base  font-bold transition-all
+      "
+    href="test"
+  >
+    テストボタン
+  </a>
+</div>
+`;
+
+exports[`LinkButton colorが赤色でbuttonStyleがoutlineの場合、正しくレンダリングされること 1`] = `
+<div>
+  <a
+    class="
+        w-full border-red text-red bg-white hover:text-white hover:bg-red group relative inline-flex items-center justify-center gap-2 rounded-md border-2 px-10 py-2.5 text-base  font-bold transition-all
+      "
+    href="test"
+  >
+    テストボタン
+  </a>
+</div>
+`;
+
+exports[`LinkButton colorが赤色でbuttonStyleがsolidの場合、正しくレンダリングされること 1`] = `
+<div>
+  <a
+    class="
+        w-full border-transparent text-white bg-red hover:bg-red-light group relative inline-flex items-center justify-center gap-2 rounded-md border-2 px-10 py-2.5 text-base  font-bold transition-all
+      "
+    href="test"
+  >
+    テストボタン
+  </a>
+</div>
+`;
+
+exports[`LinkButton colorが青色でbuttonStyleがoutlineの場合、正しくレンダリングされること 1`] = `
+<div>
+  <a
+    class="
+        w-full border-blue text-blue bg-white hover:text-white hover:bg-blue group relative inline-flex items-center justify-center gap-2 rounded-md border-2 px-10 py-2.5 text-base  font-bold transition-all
+      "
+    href="test"
+  >
+    テストボタン
+  </a>
+</div>
+`;
+
+exports[`LinkButton colorが青色でbuttonStyleがsolidの場合、正しくレンダリングされること 1`] = `
+<div>
+  <a
+    class="
+        w-full border-transparent text-white bg-blue hover:bg-blue-light group relative inline-flex items-center justify-center gap-2 rounded-md border-2 px-10 py-2.5 text-base  font-bold transition-all
+      "
+    href="test"
+  >
+    テストボタン
+  </a>
+</div>
+`;
+
+exports[`LinkButton colorが黒色でbuttonStyleがoutlineの場合、正しくレンダリングされること 1`] = `
+<div>
+  <a
+    class="
+        w-full border-black text-black bg-white hover:text-white hover:bg-black group relative inline-flex items-center justify-center gap-2 rounded-md border-2 px-10 py-2.5 text-base  font-bold transition-all
+      "
+    href="test"
+  >
+    テストボタン
+  </a>
+</div>
+`;
+
+exports[`LinkButton colorが黒色でbuttonStyleがsolidの場合、正しくレンダリングされること 1`] = `
+<div>
+  <a
+    class="
+        w-full border-transparent text-white bg-black hover:bg-gray-900 group relative inline-flex items-center justify-center gap-2 rounded-md border-2 px-10 py-2.5 text-base  font-bold transition-all
+      "
+    href="test"
+  >
+    テストボタン
+  </a>
+</div>
+`;
+
+exports[`LinkButton fullがfalseの場合、正しくレンダリングされること 1`] = `
+<div>
+  <a
+    class="
+        false border-transparent text-white bg-blue hover:bg-blue-light group relative inline-flex items-center justify-center gap-2 rounded-md border-2 px-10 py-2.5 text-base  font-bold transition-all
+      "
+    href="test"
+  >
+    テストボタン
+  </a>
+</div>
+`;
+
+exports[`LinkButton fullがtrueの場合、正しくレンダリングされること 1`] = `
+<div>
+  <a
+    class="
+        w-full border-transparent text-white bg-blue hover:bg-blue-light group relative inline-flex items-center justify-center gap-2 rounded-md border-2 px-10 py-2.5 text-base  font-bold transition-all
+      "
+    href="test"
+  >
+    テストボタン
+  </a>
+</div>
+`;
+
+exports[`LinkButton iconLeftがarrowの場合、正しくレンダリングされること 1`] = `
+<div>
+  <a
+    class="
+        w-full border-transparent text-white bg-blue hover:bg-blue-light group relative inline-flex items-center justify-center gap-2 rounded-md border-2 px-10 py-2.5 text-base  font-bold transition-all
+      "
+    href="test"
+  >
+    <span
+      class="absolute inset-y-0 inline-flex items-center justify-center m-auto h-full w-3.5  text-white left-4"
+    >
+      arrow
+    </span>
+    テストボタン
+  </a>
+</div>
+`;
+
+exports[`LinkButton iconLeftがarrow以外の場合、正しくレンダリングされること 1`] = `
+<div>
+  <a
+    class="
+        w-full border-transparent text-white bg-blue hover:bg-blue-light group relative inline-flex items-center justify-center gap-2 rounded-md border-2 px-10 py-2.5 text-base  font-bold transition-all
+      "
+    href="test"
+  >
+    <span
+      class="absolute inset-y-0 inline-flex items-center justify-center m-auto h-full w-3.5  text-white left-4"
+    >
+      <div>
+        test
+      </div>
+    </span>
+    テストボタン
+  </a>
+</div>
+`;
+
+exports[`LinkButton iconRightがarrowの場合、正しくレンダリングされること 1`] = `
+<div>
+  <a
+    class="
+        w-full border-transparent text-white bg-blue hover:bg-blue-light group relative inline-flex items-center justify-center gap-2 rounded-md border-2 px-10 py-2.5 text-base  font-bold transition-all
+      "
+    href="test"
+  >
+    テストボタン
+    <span
+      class="absolute inset-y-0 inline-flex items-center justify-center m-auto h-full w-3.5  text-white right-4"
+    >
+      arrow
+    </span>
+  </a>
+</div>
+`;
+
+exports[`LinkButton iconRightがarrow以外の場合、正しくレンダリングされること 1`] = `
+<div>
+  <a
+    class="
+        w-full border-transparent text-white bg-blue hover:bg-blue-light group relative inline-flex items-center justify-center gap-2 rounded-md border-2 px-10 py-2.5 text-base  font-bold transition-all
+      "
+    href="test"
+  >
+    テストボタン
+    <span
+      class="absolute inset-y-0 inline-flex items-center justify-center m-auto h-full w-3.5  text-white right-4"
+    >
+      <div>
+        test
+      </div>
+    </span>
+  </a>
+</div>
+`;
+
+exports[`LinkButton 正しくレンダリングされること 1`] = `
+<div>
+  <a
+    class="
+        w-full border-transparent text-white bg-blue hover:bg-blue-light group relative inline-flex items-center justify-center gap-2 rounded-md border-2 px-10 py-2.5 text-base  font-bold transition-all
+      "
+    href="test"
+  >
+    テストボタン
+  </a>
+</div>
+`;

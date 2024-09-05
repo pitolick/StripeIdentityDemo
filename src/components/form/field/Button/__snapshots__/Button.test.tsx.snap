@@ -1,0 +1,220 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Buttonコンポーネント colorプロパティが灰色でbuttonStyleプロパティがoutlineを指定した場合、正しく適用されること 1`] = `
+<div>
+  <button
+    class="
+        w-full border-gray-500 text-gray-500 bg-white hover:border-transparent hover:text-gray-900 hover:bg-gray-500 group relative inline-flex items-center justify-center gap-2 rounded-md border-2 px-10 py-2.5 text-base  font-bold transition-all
+      "
+    type="button"
+  >
+    テストボタン
+  </button>
+</div>
+`;
+
+exports[`Buttonコンポーネント colorプロパティが灰色でbuttonStyleプロパティがsolidを指定した場合、正しく適用されること 1`] = `
+<div>
+  <button
+    class="
+        w-full border-transparent text-gray-900 bg-gray-500 hover:bg-gray-300 group relative inline-flex items-center justify-center gap-2 rounded-md border-2 px-10 py-2.5 text-base  font-bold transition-all
+      "
+    type="button"
+  >
+    テストボタン
+  </button>
+</div>
+`;
+
+exports[`Buttonコンポーネント colorプロパティが赤色でbuttonStyleプロパティがoutlineを指定した場合、正しく適用されること 1`] = `
+<div>
+  <button
+    class="
+        w-full border-red text-red bg-white hover:text-white hover:bg-red group relative inline-flex items-center justify-center gap-2 rounded-md border-2 px-10 py-2.5 text-base  font-bold transition-all
+      "
+    type="button"
+  >
+    テストボタン
+  </button>
+</div>
+`;
+
+exports[`Buttonコンポーネント colorプロパティが赤色でbuttonStyleプロパティがsolidを指定した場合、正しく適用されること 1`] = `
+<div>
+  <button
+    class="
+        w-full border-transparent text-white bg-red hover:bg-red-light group relative inline-flex items-center justify-center gap-2 rounded-md border-2 px-10 py-2.5 text-base  font-bold transition-all
+      "
+    type="button"
+  >
+    テストボタン
+  </button>
+</div>
+`;
+
+exports[`Buttonコンポーネント colorプロパティが青色でbuttonStyleプロパティがoutlineを指定した場合、正しく適用されること 1`] = `
+<div>
+  <button
+    class="
+        w-full border-blue text-blue bg-white hover:text-white hover:bg-blue group relative inline-flex items-center justify-center gap-2 rounded-md border-2 px-10 py-2.5 text-base  font-bold transition-all
+      "
+    type="button"
+  >
+    テストボタン
+  </button>
+</div>
+`;
+
+exports[`Buttonコンポーネント colorプロパティが青色でbuttonStyleプロパティがsolidを指定した場合、正しく適用されること 1`] = `
+<div>
+  <button
+    class="
+        w-full border-transparent text-white bg-blue hover:bg-blue-light group relative inline-flex items-center justify-center gap-2 rounded-md border-2 px-10 py-2.5 text-base  font-bold transition-all
+      "
+    type="button"
+  >
+    テストボタン
+  </button>
+</div>
+`;
+
+exports[`Buttonコンポーネント colorプロパティが黒色でbuttonStyleプロパティがoutlineを指定した場合、正しく適用されること 1`] = `
+<div>
+  <button
+    class="
+        w-full border-black text-black bg-white hover:text-white hover:bg-black group relative inline-flex items-center justify-center gap-2 rounded-md border-2 px-10 py-2.5 text-base  font-bold transition-all
+      "
+    type="button"
+  >
+    テストボタン
+  </button>
+</div>
+`;
+
+exports[`Buttonコンポーネント colorプロパティが黒色でbuttonStyleプロパティがsolidを指定した場合、正しく適用されること 1`] = `
+<div>
+  <button
+    class="
+        w-full border-transparent text-white bg-black hover:bg-gray-900 group relative inline-flex items-center justify-center gap-2 rounded-md border-2 px-10 py-2.5 text-base  font-bold transition-all
+      "
+    type="button"
+  >
+    テストボタン
+  </button>
+</div>
+`;
+
+exports[`Buttonコンポーネント fullプロパティがfalseの場合、インライン要素としてレンダリングされること 1`] = `
+<div>
+  <button
+    class="
+        false border-transparent text-white bg-blue hover:bg-blue-light group relative inline-flex items-center justify-center gap-2 rounded-md border-2 px-10 py-2.5 text-base  font-bold transition-all
+      "
+    type="button"
+  >
+    テストボタン
+  </button>
+</div>
+`;
+
+exports[`Buttonコンポーネント fullプロパティがtrueの場合、ブロック要素としてレンダリングされること 1`] = `
+<div>
+  <button
+    class="
+        w-full border-transparent text-white bg-blue hover:bg-blue-light group relative inline-flex items-center justify-center gap-2 rounded-md border-2 px-10 py-2.5 text-base  font-bold transition-all
+      "
+    type="button"
+  >
+    テストボタン
+  </button>
+</div>
+`;
+
+exports[`Buttonコンポーネント iconLeftプロパティにarrowを指定した場合、正しく表示されること 1`] = `
+<div>
+  <button
+    class="
+        w-full border-transparent text-white bg-blue hover:bg-blue-light group relative inline-flex items-center justify-center gap-2 rounded-md border-2 px-10 py-2.5 text-base  font-bold transition-all
+      "
+    type="button"
+  >
+    <span
+      class="absolute inset-y-0 inline-flex items-center justify-center m-auto h-full w-3.5  text-white left-4"
+    >
+      arrow
+    </span>
+    テストボタン
+  </button>
+</div>
+`;
+
+exports[`Buttonコンポーネント iconLeftプロパティにアイコンを指定した場合、正しく表示されること 1`] = `
+<div>
+  <button
+    class="
+        w-full border-transparent text-white bg-blue hover:bg-blue-light group relative inline-flex items-center justify-center gap-2 rounded-md border-2 px-10 py-2.5 text-base  font-bold transition-all
+      "
+    type="button"
+  >
+    <span
+      class="absolute inset-y-0 inline-flex items-center justify-center m-auto h-full w-3.5  text-white left-4"
+    >
+      <span>
+        アイコン
+      </span>
+    </span>
+    テストボタン
+  </button>
+</div>
+`;
+
+exports[`Buttonコンポーネント iconRightプロパティにarrowを指定した場合、正しく表示されること 1`] = `
+<div>
+  <button
+    class="
+        w-full border-transparent text-white bg-blue hover:bg-blue-light group relative inline-flex items-center justify-center gap-2 rounded-md border-2 px-10 py-2.5 text-base  font-bold transition-all
+      "
+    type="button"
+  >
+    テストボタン
+    <span
+      class="absolute inset-y-0 inline-flex items-center justify-center m-auto h-full w-3.5  text-white right-4"
+    >
+      arrow
+    </span>
+  </button>
+</div>
+`;
+
+exports[`Buttonコンポーネント iconRightプロパティにアイコンを指定した場合、正しく表示されること 1`] = `
+<div>
+  <button
+    class="
+        w-full border-transparent text-white bg-blue hover:bg-blue-light group relative inline-flex items-center justify-center gap-2 rounded-md border-2 px-10 py-2.5 text-base  font-bold transition-all
+      "
+    type="button"
+  >
+    テストボタン
+    <span
+      class="absolute inset-y-0 inline-flex items-center justify-center m-auto h-full w-3.5  text-white right-4"
+    >
+      <span>
+        アイコン
+      </span>
+    </span>
+  </button>
+</div>
+`;
+
+exports[`Buttonコンポーネント 正しくレンダリングされること 1`] = `
+<div>
+  <button
+    class="
+        w-full border-transparent text-white bg-blue hover:bg-blue-light group relative inline-flex items-center justify-center gap-2 rounded-md border-2 px-10 py-2.5 text-base  font-bold transition-all
+      "
+    type="button"
+  >
+    テストボタン
+  </button>
+</div>
+`;

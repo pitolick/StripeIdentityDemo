@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Input コンポーネント classNameプロパティが指定された場合、正しく適用されること 1`] = `
+<div>
+  <input
+    class="text-red block w-full rounded-md border border-gray-500 px-3 py-2 text-sm file:mr-4 file:border-0 file:bg-gray-300 file:px-4 file:py-3 md:px-5 md:py-3 md:text-base"
+  />
+</div>
+`;
+
+exports[`Input コンポーネント 正しくレンダリングされること 1`] = `
+<div>
+  <input
+    class=" block w-full rounded-md border border-gray-500 px-3 py-2 text-sm file:mr-4 file:border-0 file:bg-gray-300 file:px-4 file:py-3 md:px-5 md:py-3 md:text-base"
+  />
+</div>
+`;

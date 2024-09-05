@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Loadingコンポーネント 表示フラグがfalseからtrueに変わった場合、0.2秒待ってからローディングが表示されること 1`] = `<div />`;
+
+exports[`Loadingコンポーネント 表示フラグがfalseからtrueに変わった場合、0.2秒待ってからローディングが表示されること 2`] = `<div />`;
+
+exports[`Loadingコンポーネント 表示フラグがfalseの場合、ローディングが非表示になること 1`] = `<div />`;
+
+exports[`Loadingコンポーネント 表示フラグがtrueの場合、ローディングが表示されること 1`] = `<div />`;

@@ -1,0 +1,826 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RadioControl contentWidthプロパティがfullの場合、正しくレンダリングされること 1`] = `
+<div>
+  <div
+    class="w-full flex-auto space-y-2 false"
+  >
+    <div
+      class="space-y-2 false"
+    >
+      <div
+        class="flex w-full items-center justify-start gap-x-3"
+      >
+        <div
+          class="flex-row w-full flex flex-wrap gap-3"
+        >
+          <div
+            class="false flex-auto"
+          >
+            <label
+              class=" inline-block relative pl-5  cursor-pointer"
+            >
+              <input
+                class="focus:ring-transparent  absolute margin-auto top-1/2 transform -translate-y-1/2 left-0 checked:text-blue focus:text-blue "
+                label="オプション1"
+                type="radio"
+                value="option1"
+              />
+            </label>
+          </div>
+          <div
+            class="false flex-auto"
+          >
+            <label
+              class=" inline-block relative pl-5  cursor-pointer"
+            >
+              <input
+                class="focus:ring-transparent  absolute margin-auto top-1/2 transform -translate-y-1/2 left-0 checked:text-blue focus:text-blue "
+                label="オプション2"
+                type="radio"
+                value="option2"
+              />
+            </label>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`RadioControl directionプロパティがcolの場合、正しくレンダリングされること 1`] = `
+<div>
+  <div
+    class="false space-y-2 false"
+  >
+    <div
+      class="space-y-2 false"
+    >
+      <div
+        class="flex w-full items-center justify-start gap-x-3"
+      >
+        <div
+          class="flex-col false flex flex-wrap gap-3"
+        >
+          <div
+            class="w-full false"
+          >
+            <label
+              class=" inline-block relative pl-5  cursor-pointer"
+            >
+              <input
+                class="focus:ring-transparent  absolute margin-auto top-1/2 transform -translate-y-1/2 left-0 checked:text-blue focus:text-blue "
+                label="オプション1"
+                type="radio"
+                value="option1"
+              />
+            </label>
+          </div>
+          <div
+            class="w-full false"
+          >
+            <label
+              class=" inline-block relative pl-5  cursor-pointer"
+            >
+              <input
+                class="focus:ring-transparent  absolute margin-auto top-1/2 transform -translate-y-1/2 left-0 checked:text-blue focus:text-blue "
+                label="オプション2"
+                type="radio"
+                value="option2"
+              />
+            </label>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`RadioControl directionプロパティがrowの場合、正しくレンダリングされること 1`] = `
+<div>
+  <div
+    class="false space-y-2 false"
+  >
+    <div
+      class="space-y-2 false"
+    >
+      <div
+        class="flex w-full items-center justify-start gap-x-3"
+      >
+        <div
+          class="flex-row false flex flex-wrap gap-3"
+        >
+          <div
+            class="false false"
+          >
+            <label
+              class=" inline-block relative pl-5  cursor-pointer"
+            >
+              <input
+                class="focus:ring-transparent  absolute margin-auto top-1/2 transform -translate-y-1/2 left-0 checked:text-blue focus:text-blue "
+                label="オプション1"
+                type="radio"
+                value="option1"
+              />
+            </label>
+          </div>
+          <div
+            class="false false"
+          >
+            <label
+              class=" inline-block relative pl-5  cursor-pointer"
+            >
+              <input
+                class="focus:ring-transparent  absolute margin-auto top-1/2 transform -translate-y-1/2 left-0 checked:text-blue focus:text-blue "
+                label="オプション2"
+                type="radio"
+                value="option2"
+              />
+            </label>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`RadioControl labelTypeプロパティがcardでerrorがtrueの場合、正しくレンダリングされること 1`] = `
+<div>
+  <div
+    class="false space-y-2 false"
+  >
+    <div
+      class="space-y-2 false"
+    >
+      <div
+        class="flex w-full items-center justify-start gap-x-3"
+      >
+        <div
+          class="flex-row false flex flex-wrap gap-3"
+        >
+          <div
+            class="false false"
+          >
+            <label
+              class=" inline-block relative pl-5  text-red cursor-pointer"
+            >
+              <input
+                class="focus:ring-transparent  absolute margin-auto top-1/2 transform -translate-y-1/2 left-0 checked:text-blue focus:text-blue  bg-red-pale text-red border-red"
+                label="オプション1"
+                type="radio"
+                value="option1"
+              />
+            </label>
+          </div>
+          <div
+            class="false false"
+          >
+            <label
+              class=" inline-block relative pl-5  text-red cursor-pointer"
+            >
+              <input
+                class="focus:ring-transparent  absolute margin-auto top-1/2 transform -translate-y-1/2 left-0 checked:text-blue focus:text-blue  bg-red-pale text-red border-red"
+                label="オプション2"
+                type="radio"
+                value="option2"
+              />
+            </label>
+          </div>
+        </div>
+      </div>
+      <p
+        class="text-sm text-red"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`RadioControl labelTypeプロパティがcardの場合、正しくレンダリングされること 1`] = `
+<div>
+  <div
+    class="false space-y-2 false"
+  >
+    <div
+      class="space-y-2 false"
+    >
+      <div
+        class="flex w-full items-center justify-start gap-x-3"
+      >
+        <div
+          class="flex-row false flex flex-wrap gap-3"
+        >
+          <div
+            class="false false"
+          >
+            <label
+              class=" inline-block relative pl-5  cursor-pointer"
+            >
+              <input
+                class="focus:ring-transparent  absolute margin-auto top-1/2 transform -translate-y-1/2 left-0 checked:text-blue focus:text-blue "
+                label="オプション1"
+                type="radio"
+                value="option1"
+              />
+            </label>
+          </div>
+          <div
+            class="false false"
+          >
+            <label
+              class=" inline-block relative pl-5  cursor-pointer"
+            >
+              <input
+                class="focus:ring-transparent  absolute margin-auto top-1/2 transform -translate-y-1/2 left-0 checked:text-blue focus:text-blue "
+                label="オプション2"
+                type="radio"
+                value="option2"
+              />
+            </label>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`RadioControl labelTypeプロパティがdefaultでerrorがtrueの場合、正しくレンダリングされること 1`] = `
+<div>
+  <div
+    class="false space-y-2 false"
+  >
+    <div
+      class="space-y-2 false"
+    >
+      <div
+        class="flex w-full items-center justify-start gap-x-3"
+      >
+        <div
+          class="flex-row false flex flex-wrap gap-3"
+        >
+          <div
+            class="false false"
+          >
+            <label
+              class=" inline-block relative pl-5  text-red cursor-pointer"
+            >
+              <input
+                class="focus:ring-transparent  absolute margin-auto top-1/2 transform -translate-y-1/2 left-0 checked:text-blue focus:text-blue  bg-red-pale text-red border-red"
+                label="オプション1"
+                type="radio"
+                value="option1"
+              />
+            </label>
+          </div>
+          <div
+            class="false false"
+          >
+            <label
+              class=" inline-block relative pl-5  text-red cursor-pointer"
+            >
+              <input
+                class="focus:ring-transparent  absolute margin-auto top-1/2 transform -translate-y-1/2 left-0 checked:text-blue focus:text-blue  bg-red-pale text-red border-red"
+                label="オプション2"
+                type="radio"
+                value="option2"
+              />
+            </label>
+          </div>
+        </div>
+      </div>
+      <p
+        class="text-sm text-red"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`RadioControl labelTypeプロパティがdefaultの場合、正しくレンダリングされること 1`] = `
+<div>
+  <div
+    class="false space-y-2 false"
+  >
+    <div
+      class="space-y-2 false"
+    >
+      <div
+        class="flex w-full items-center justify-start gap-x-3"
+      >
+        <div
+          class="flex-row false flex flex-wrap gap-3"
+        >
+          <div
+            class="false false"
+          >
+            <label
+              class=" inline-block relative pl-5  cursor-pointer"
+            >
+              <input
+                class="focus:ring-transparent  absolute margin-auto top-1/2 transform -translate-y-1/2 left-0 checked:text-blue focus:text-blue "
+                label="オプション1"
+                type="radio"
+                value="option1"
+              />
+            </label>
+          </div>
+          <div
+            class="false false"
+          >
+            <label
+              class=" inline-block relative pl-5  cursor-pointer"
+            >
+              <input
+                class="focus:ring-transparent  absolute margin-auto top-1/2 transform -translate-y-1/2 left-0 checked:text-blue focus:text-blue "
+                label="オプション2"
+                type="radio"
+                value="option2"
+              />
+            </label>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`RadioControl listsにradioClassName labelClassNameプロパティが指定されている場合、正しくレンダリングされること 1`] = `
+<div>
+  <div
+    class="false space-y-2 false"
+  >
+    <div
+      class="space-y-2 false"
+    >
+      <div
+        class="flex w-full items-center justify-start gap-x-3"
+      >
+        <div
+          class="flex-row false flex flex-wrap gap-3"
+        >
+          <div
+            class="false false"
+          >
+            <label
+              class="test-label inline-block relative pl-5  cursor-pointer"
+            >
+              <input
+                class="focus:ring-transparent test-radio absolute margin-auto top-1/2 transform -translate-y-1/2 left-0 checked:text-blue focus:text-blue "
+                label="オプション1"
+                type="radio"
+                value="option1"
+              />
+            </label>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`RadioControl radioColorプロパティがblackの場合、正しくレンダリングされること 1`] = `
+<div>
+  <div
+    class="false space-y-2 false"
+  >
+    <div
+      class="space-y-2 false"
+    >
+      <div
+        class="flex w-full items-center justify-start gap-x-3"
+      >
+        <div
+          class="flex-row false flex flex-wrap gap-3"
+        >
+          <div
+            class="false false"
+          >
+            <label
+              class=" inline-block relative pl-5  cursor-pointer"
+            >
+              <input
+                class="focus:ring-transparent  absolute margin-auto top-1/2 transform -translate-y-1/2 left-0 checked:text-black focus:text-black "
+                label="オプション1"
+                type="radio"
+                value="option1"
+              />
+            </label>
+          </div>
+          <div
+            class="false false"
+          >
+            <label
+              class=" inline-block relative pl-5  cursor-pointer"
+            >
+              <input
+                class="focus:ring-transparent  absolute margin-auto top-1/2 transform -translate-y-1/2 left-0 checked:text-black focus:text-black "
+                label="オプション2"
+                type="radio"
+                value="option2"
+              />
+            </label>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`RadioControl radioColorプロパティがblueの場合、正しくレンダリングされること 1`] = `
+<div>
+  <div
+    class="false space-y-2 false"
+  >
+    <div
+      class="space-y-2 false"
+    >
+      <div
+        class="flex w-full items-center justify-start gap-x-3"
+      >
+        <div
+          class="flex-row false flex flex-wrap gap-3"
+        >
+          <div
+            class="false false"
+          >
+            <label
+              class=" inline-block relative pl-5  cursor-pointer"
+            >
+              <input
+                class="focus:ring-transparent  absolute margin-auto top-1/2 transform -translate-y-1/2 left-0 checked:text-blue focus:text-blue "
+                label="オプション1"
+                type="radio"
+                value="option1"
+              />
+            </label>
+          </div>
+          <div
+            class="false false"
+          >
+            <label
+              class=" inline-block relative pl-5  cursor-pointer"
+            >
+              <input
+                class="focus:ring-transparent  absolute margin-auto top-1/2 transform -translate-y-1/2 left-0 checked:text-blue focus:text-blue "
+                label="オプション2"
+                type="radio"
+                value="option2"
+              />
+            </label>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`RadioControl radioColorプロパティがgrayの場合、正しくレンダリングされること 1`] = `
+<div>
+  <div
+    class="false space-y-2 false"
+  >
+    <div
+      class="space-y-2 false"
+    >
+      <div
+        class="flex w-full items-center justify-start gap-x-3"
+      >
+        <div
+          class="flex-row false flex flex-wrap gap-3"
+        >
+          <div
+            class="false false"
+          >
+            <label
+              class=" inline-block relative pl-5  cursor-pointer"
+            >
+              <input
+                class="focus:ring-transparent  absolute margin-auto top-1/2 transform -translate-y-1/2 left-0 checked:text-gray-700 focus:text-gray-700 "
+                label="オプション1"
+                type="radio"
+                value="option1"
+              />
+            </label>
+          </div>
+          <div
+            class="false false"
+          >
+            <label
+              class=" inline-block relative pl-5  cursor-pointer"
+            >
+              <input
+                class="focus:ring-transparent  absolute margin-auto top-1/2 transform -translate-y-1/2 left-0 checked:text-gray-700 focus:text-gray-700 "
+                label="オプション2"
+                type="radio"
+                value="option2"
+              />
+            </label>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`RadioControl radioColorプロパティがredの場合、正しくレンダリングされること 1`] = `
+<div>
+  <div
+    class="false space-y-2 false"
+  >
+    <div
+      class="space-y-2 false"
+    >
+      <div
+        class="flex w-full items-center justify-start gap-x-3"
+      >
+        <div
+          class="flex-row false flex flex-wrap gap-3"
+        >
+          <div
+            class="false false"
+          >
+            <label
+              class=" inline-block relative pl-5  cursor-pointer"
+            >
+              <input
+                class="focus:ring-transparent  absolute margin-auto top-1/2 transform -translate-y-1/2 left-0 checked:text-red focus:text-red "
+                label="オプション1"
+                type="radio"
+                value="option1"
+              />
+            </label>
+          </div>
+          <div
+            class="false false"
+          >
+            <label
+              class=" inline-block relative pl-5  cursor-pointer"
+            >
+              <input
+                class="focus:ring-transparent  absolute margin-auto top-1/2 transform -translate-y-1/2 left-0 checked:text-red focus:text-red "
+                label="オプション2"
+                type="radio"
+                value="option2"
+              />
+            </label>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`RadioControl radioPositionプロパティがcenterの場合、正しくレンダリングされること 1`] = `
+<div>
+  <div
+    class="false space-y-2 false"
+  >
+    <div
+      class="space-y-2 false"
+    >
+      <div
+        class="flex w-full items-center justify-start gap-x-3"
+      >
+        <div
+          class="flex-row false flex flex-wrap gap-3"
+        >
+          <div
+            class="false false"
+          >
+            <label
+              class=" inline-block relative pl-5  cursor-pointer"
+            >
+              <input
+                class="focus:ring-transparent  absolute margin-auto top-1/2 transform -translate-y-1/2 left-0 checked:text-blue focus:text-blue "
+                label="オプション1"
+                type="radio"
+                value="option1"
+              />
+            </label>
+          </div>
+          <div
+            class="false false"
+          >
+            <label
+              class=" inline-block relative pl-5  cursor-pointer"
+            >
+              <input
+                class="focus:ring-transparent  absolute margin-auto top-1/2 transform -translate-y-1/2 left-0 checked:text-blue focus:text-blue "
+                label="オプション2"
+                type="radio"
+                value="option2"
+              />
+            </label>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`RadioControl radioPositionプロパティがhiddenの場合、正しくレンダリングされること 1`] = `
+<div>
+  <div
+    class="false space-y-2 false"
+  >
+    <div
+      class="space-y-2 false"
+    >
+      <div
+        class="flex w-full items-center justify-start gap-x-3"
+      >
+        <div
+          class="flex-row false flex flex-wrap gap-3"
+        >
+          <div
+            class="false false"
+          >
+            <label
+              class=" inline-block relative pl-5  cursor-pointer"
+            >
+              <input
+                class="focus:ring-transparent hidden left-0 checked:text-blue focus:text-blue "
+                label="オプション1"
+                type="radio"
+                value="option1"
+              />
+            </label>
+          </div>
+          <div
+            class="false false"
+          >
+            <label
+              class=" inline-block relative pl-5  cursor-pointer"
+            >
+              <input
+                class="focus:ring-transparent hidden left-0 checked:text-blue focus:text-blue "
+                label="オプション2"
+                type="radio"
+                value="option2"
+              />
+            </label>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`RadioControl radioPositionプロパティがtopでlabelTypeがcardの場合、正しくレンダリングされること 1`] = `
+<div>
+  <div
+    class="false space-y-2 false"
+  >
+    <div
+      class="space-y-2 false"
+    >
+      <div
+        class="flex w-full items-center justify-start gap-x-3"
+      >
+        <div
+          class="flex-row false flex flex-wrap gap-3"
+        >
+          <div
+            class="false false"
+          >
+            <label
+              class=" inline-block relative pl-5  cursor-pointer"
+            >
+              <input
+                class="focus:ring-transparent  absolute margin-auto top-1 left-0 checked:text-blue focus:text-blue "
+                label="オプション1"
+                type="radio"
+                value="option1"
+              />
+            </label>
+          </div>
+          <div
+            class="false false"
+          >
+            <label
+              class=" inline-block relative pl-5  cursor-pointer"
+            >
+              <input
+                class="focus:ring-transparent  absolute margin-auto top-1 left-0 checked:text-blue focus:text-blue "
+                label="オプション2"
+                type="radio"
+                value="option2"
+              />
+            </label>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`RadioControl radioPositionプロパティがtopでlabelTypeがdefaultの場合、正しくレンダリングされること 1`] = `
+<div>
+  <div
+    class="false space-y-2 false"
+  >
+    <div
+      class="space-y-2 false"
+    >
+      <div
+        class="flex w-full items-center justify-start gap-x-3"
+      >
+        <div
+          class="flex-row false flex flex-wrap gap-3"
+        >
+          <div
+            class="false false"
+          >
+            <label
+              class=" inline-block relative pl-5  cursor-pointer"
+            >
+              <input
+                class="focus:ring-transparent  absolute margin-auto top-1 left-0 checked:text-blue focus:text-blue "
+                label="オプション1"
+                type="radio"
+                value="option1"
+              />
+            </label>
+          </div>
+          <div
+            class="false false"
+          >
+            <label
+              class=" inline-block relative pl-5  cursor-pointer"
+            >
+              <input
+                class="focus:ring-transparent  absolute margin-auto top-1 left-0 checked:text-blue focus:text-blue "
+                label="オプション2"
+                type="radio"
+                value="option2"
+              />
+            </label>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`RadioControl 正しくレンダリングされること 1`] = `
+<div>
+  <div
+    class="false space-y-2 false"
+  >
+    <div
+      class="space-y-2 false"
+    >
+      <div
+        class="flex w-full items-center justify-start gap-x-3"
+      >
+        <div
+          class="flex-row false flex flex-wrap gap-3"
+        >
+          <div
+            class="false false"
+          >
+            <label
+              class=" inline-block relative pl-5  cursor-pointer"
+            >
+              <input
+                class="focus:ring-transparent  absolute margin-auto top-1/2 transform -translate-y-1/2 left-0 checked:text-blue focus:text-blue "
+                label="オプション1"
+                type="radio"
+                value="option1"
+              />
+            </label>
+          </div>
+          <div
+            class="false false"
+          >
+            <label
+              class=" inline-block relative pl-5  cursor-pointer"
+            >
+              <input
+                class="focus:ring-transparent  absolute margin-auto top-1/2 transform -translate-y-1/2 left-0 checked:text-blue focus:text-blue "
+                label="オプション2"
+                type="radio"
+                value="option2"
+              />
+            </label>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

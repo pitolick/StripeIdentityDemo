@@ -1,0 +1,97 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HeadingCaptionコンポーネント class名が正しく設定されること 1`] = `
+<h2
+  class="text-red relative ps-4 font-bold before:absolute before:inset-y-0 before:left-0 before:block before:w-2 before:bg-gray-500 before:content-[''] "
+>
+  <span
+    class="relative"
+  >
+    見出し
+  </span>
+</h2>
+`;
+
+exports[`HeadingCaptionコンポーネント h1タグが正しく設定されること 1`] = `
+<h1
+  class="undefined relative ps-4 font-bold before:absolute before:inset-y-0 before:left-0 before:block before:w-2 before:bg-gray-500 before:content-[''] "
+>
+  <span
+    class="relative"
+  >
+    見出し
+  </span>
+</h1>
+`;
+
+exports[`HeadingCaptionコンポーネント h2タグが正しく設定されること 1`] = `
+<h2
+  class="undefined relative ps-4 font-bold before:absolute before:inset-y-0 before:left-0 before:block before:w-2 before:bg-gray-500 before:content-[''] "
+>
+  <span
+    class="relative"
+  >
+    見出し
+  </span>
+</h2>
+`;
+
+exports[`HeadingCaptionコンポーネント h3タグが正しく設定されること 1`] = `
+<h3
+  class="undefined relative ps-4 font-bold before:absolute before:inset-y-0 before:left-0 before:block before:w-2 before:bg-gray-500 before:content-[''] "
+>
+  <span
+    class="relative"
+  >
+    見出し
+  </span>
+</h3>
+`;
+
+exports[`HeadingCaptionコンポーネント h4タグが正しく設定されること 1`] = `
+<h4
+  class="undefined relative ps-4 font-bold before:absolute before:inset-y-0 before:left-0 before:block before:w-2 before:bg-gray-500 before:content-[''] "
+>
+  <span
+    class="relative"
+  >
+    見出し
+  </span>
+</h4>
+`;
+
+exports[`HeadingCaptionコンポーネント h5タグが正しく設定されること 1`] = `
+<h5
+  class="undefined relative ps-4 font-bold before:absolute before:inset-y-0 before:left-0 before:block before:w-2 before:bg-gray-500 before:content-[''] "
+>
+  <span
+    class="relative"
+  >
+    見出し
+  </span>
+</h5>
+`;
+
+exports[`HeadingCaptionコンポーネント h6タグが正しく設定されること 1`] = `
+<h6
+  class="undefined relative ps-4 font-bold before:absolute before:inset-y-0 before:left-0 before:block before:w-2 before:bg-gray-500 before:content-[''] "
+>
+  <span
+    class="relative"
+  >
+    見出し
+  </span>
+</h6>
+`;
+
+exports[`HeadingCaptionコンポーネント 子要素が正しく表示されること 1`] = `
+<h2
+  class="undefined relative ps-4 font-bold before:absolute before:inset-y-0 before:left-0 before:block before:w-2 before:bg-gray-500 before:content-[''] "
+>
+  <span
+    class="relative"
+  >
+    見出し
+  </span>
+</h2>
+`;

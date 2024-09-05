@@ -1,0 +1,415 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InputBox contentWidthがautoの場合、コンテンツ幅がautoになること 1`] = `
+<div
+  class="false space-y-2 false"
+>
+  <div
+    class="flex items-center justify-start gap-x-2"
+  >
+    <span
+      class="text-xs text-center px-1.5 md:px-3 py-1 rounded-md whitespace-nowrap bg-red text-white"
+    >
+      必須
+    </span>
+    <label
+      class="block text-sm font-bold"
+      for="test"
+    >
+      テスト
+    </label>
+  </div>
+  <div
+    class="space-y-2 false"
+  >
+    <div
+      class="flex w-full items-center justify-start gap-x-3"
+    >
+      <input
+        type="text"
+      />
+      <button>
+        ボタン
+      </button>
+    </div>
+    <ul>
+      <li
+        class="text-xs text-gray-700 before:me-1 ps-4 -indent-4 before:content-['※']"
+      >
+        注釈
+      </li>
+    </ul>
+    <p
+      class="text-sm text-red"
+    >
+      エラーメッセージ
+    </p>
+  </div>
+</div>
+`;
+
+exports[`InputBox contentWidthが未入力の場合、コンテンツ幅がデフォルト値になること 1`] = `
+<div
+  class="false space-y-2 false"
+>
+  <div
+    class="flex items-center justify-start gap-x-2"
+  >
+    <span
+      class="text-xs text-center px-1.5 md:px-3 py-1 rounded-md whitespace-nowrap bg-red text-white"
+    >
+      必須
+    </span>
+    <label
+      class="block text-sm font-bold"
+      for="test"
+    >
+      テスト
+    </label>
+  </div>
+  <div
+    class="space-y-2 false"
+  >
+    <div
+      class="flex w-full items-center justify-start gap-x-3"
+    >
+      <input
+        type="text"
+      />
+      <button>
+        ボタン
+      </button>
+    </div>
+    <ul>
+      <li
+        class="text-xs text-gray-700 before:me-1 ps-4 -indent-4 before:content-['※']"
+      >
+        注釈
+      </li>
+    </ul>
+    <p
+      class="text-sm text-red"
+    >
+      エラーメッセージ
+    </p>
+  </div>
+</div>
+`;
+
+exports[`InputBox errorが未入力の場合、エラーが非表示になること 1`] = `
+<div
+  class="w-full flex-auto space-y-2 false"
+>
+  <div
+    class="flex items-center justify-start gap-x-2"
+  >
+    <span
+      class="text-xs text-center px-1.5 md:px-3 py-1 rounded-md whitespace-nowrap bg-red text-white"
+    >
+      必須
+    </span>
+    <label
+      class="block text-sm font-bold"
+      for="test"
+    >
+      テスト
+    </label>
+  </div>
+  <div
+    class="space-y-2 false"
+  >
+    <div
+      class="flex w-full items-center justify-start gap-x-3"
+    >
+      <input
+        type="text"
+      />
+      <button>
+        ボタン
+      </button>
+    </div>
+    <ul>
+      <li
+        class="text-xs text-gray-700 before:me-1 ps-4 -indent-4 before:content-['※']"
+      >
+        注釈
+      </li>
+    </ul>
+  </div>
+</div>
+`;
+
+exports[`InputBox labelが未入力の場合、ラベルが非表示になること 1`] = `
+<div
+  class="w-full flex-auto space-y-2 false"
+>
+  <div
+    class="flex items-center justify-start gap-x-2"
+  >
+    <span
+      class="text-xs text-center px-1.5 md:px-3 py-1 rounded-md whitespace-nowrap bg-red text-white"
+    >
+      必須
+    </span>
+  </div>
+  <div
+    class="space-y-2 false"
+  >
+    <div
+      class="flex w-full items-center justify-start gap-x-3"
+    >
+      <input
+        type="text"
+      />
+      <button>
+        ボタン
+      </button>
+    </div>
+    <ul>
+      <li
+        class="text-xs text-gray-700 before:me-1 ps-4 -indent-4 before:content-['※']"
+      >
+        注釈
+      </li>
+    </ul>
+    <p
+      class="text-sm text-red"
+    >
+      エラーメッセージ
+    </p>
+  </div>
+</div>
+`;
+
+exports[`InputBox noteが未入力の場合、注釈が非表示になること 1`] = `
+<div
+  class="w-full flex-auto space-y-2 false"
+>
+  <div
+    class="flex items-center justify-start gap-x-2"
+  >
+    <span
+      class="text-xs text-center px-1.5 md:px-3 py-1 rounded-md whitespace-nowrap bg-red text-white"
+    >
+      必須
+    </span>
+    <label
+      class="block text-sm font-bold"
+      for="test"
+    >
+      テスト
+    </label>
+  </div>
+  <div
+    class="space-y-2 false"
+  >
+    <div
+      class="flex w-full items-center justify-start gap-x-3"
+    >
+      <input
+        type="text"
+      />
+      <button>
+        ボタン
+      </button>
+    </div>
+    <p
+      class="text-sm text-red"
+    >
+      エラーメッセージ
+    </p>
+  </div>
+</div>
+`;
+
+exports[`InputBox requiredがfalseの場合、必須任意の表示が非表示になること 1`] = `
+<div
+  class="w-full flex-auto space-y-2 false"
+>
+  <div
+    class="flex items-center justify-start gap-x-2"
+  >
+    <span
+      class="text-xs text-center px-1.5 md:px-3 py-1 rounded-md whitespace-nowrap bg-gray-500 text-white"
+    >
+      任意
+    </span>
+    <label
+      class="block text-sm font-bold"
+      for="test"
+    >
+      テスト
+    </label>
+  </div>
+  <div
+    class="space-y-2 false"
+  >
+    <div
+      class="flex w-full items-center justify-start gap-x-3"
+    >
+      <input
+        type="text"
+      />
+      <button>
+        ボタン
+      </button>
+    </div>
+    <ul>
+      <li
+        class="text-xs text-gray-700 before:me-1 ps-4 -indent-4 before:content-['※']"
+      >
+        注釈
+      </li>
+    </ul>
+    <p
+      class="text-sm text-red"
+    >
+      エラーメッセージ
+    </p>
+  </div>
+</div>
+`;
+
+exports[`InputBox styleTypeがconfirmの場合、正しくレンダリングされること 1`] = `
+<div
+  class="w-full flex-auto space-y-2 border-b border-b-gray-700"
+>
+  <div
+    class="flex items-center justify-start gap-x-2"
+  >
+    <span
+      class="text-xs text-center px-1.5 md:px-3 py-1 rounded-md whitespace-nowrap bg-red text-white"
+    >
+      必須
+    </span>
+    <label
+      class="block text-sm font-bold"
+      for="test"
+    >
+      テスト
+    </label>
+  </div>
+  <div
+    class="space-y-2 px-2 pb-3 pt-2"
+  >
+    <div
+      class="flex w-full items-center justify-start gap-x-3"
+    >
+      <input
+        type="text"
+      />
+      <button>
+        ボタン
+      </button>
+    </div>
+    <ul>
+      <li
+        class="text-xs text-gray-700 before:me-1 ps-4 -indent-4 before:content-['※']"
+      >
+        注釈
+      </li>
+    </ul>
+    <p
+      class="text-sm text-red"
+    >
+      エラーメッセージ
+    </p>
+  </div>
+</div>
+`;
+
+exports[`InputBox styleTypeがinputの場合、正しくレンダリングされること 1`] = `
+<div
+  class="w-full flex-auto space-y-2 false"
+>
+  <div
+    class="flex items-center justify-start gap-x-2"
+  >
+    <span
+      class="text-xs text-center px-1.5 md:px-3 py-1 rounded-md whitespace-nowrap bg-red text-white"
+    >
+      必須
+    </span>
+    <label
+      class="block text-sm font-bold"
+      for="test"
+    >
+      テスト
+    </label>
+  </div>
+  <div
+    class="space-y-2 false"
+  >
+    <div
+      class="flex w-full items-center justify-start gap-x-3"
+    >
+      <input
+        type="text"
+      />
+      <button>
+        ボタン
+      </button>
+    </div>
+    <ul>
+      <li
+        class="text-xs text-gray-700 before:me-1 ps-4 -indent-4 before:content-['※']"
+      >
+        注釈
+      </li>
+    </ul>
+    <p
+      class="text-sm text-red"
+    >
+      エラーメッセージ
+    </p>
+  </div>
+</div>
+`;
+
+exports[`InputBox 正しくレンダリングされること 1`] = `
+<div
+  class="w-full flex-auto space-y-2 false"
+>
+  <div
+    class="flex items-center justify-start gap-x-2"
+  >
+    <span
+      class="text-xs text-center px-1.5 md:px-3 py-1 rounded-md whitespace-nowrap bg-red text-white"
+    >
+      必須
+    </span>
+    <label
+      class="block text-sm font-bold"
+      for="test"
+    >
+      テスト
+    </label>
+  </div>
+  <div
+    class="space-y-2 false"
+  >
+    <div
+      class="flex w-full items-center justify-start gap-x-3"
+    >
+      <input
+        type="text"
+      />
+      <button>
+        ボタン
+      </button>
+    </div>
+    <ul>
+      <li
+        class="text-xs text-gray-700 before:me-1 ps-4 -indent-4 before:content-['※']"
+      >
+        注釈
+      </li>
+    </ul>
+    <p
+      class="text-sm text-red"
+    >
+      エラーメッセージ
+    </p>
+  </div>
+</div>
+`;

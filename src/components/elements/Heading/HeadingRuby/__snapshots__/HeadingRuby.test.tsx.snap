@@ -1,0 +1,137 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HeadingRuby class名が正しく設定されること 1`] = `
+<h2
+  class="text-red"
+>
+  <span
+    class="block text-base text-gray-900"
+  >
+    見出し
+  </span>
+  <span
+    class="text-3xl font-bold"
+  >
+    見出し
+  </span>
+</h2>
+`;
+
+exports[`HeadingRuby h1タグが正しく設定されること 1`] = `
+<h1
+  class="undefined"
+>
+  <span
+    class="block text-base text-gray-900"
+  >
+    見出し
+  </span>
+  <span
+    class="text-3xl font-bold"
+  >
+    見出し
+  </span>
+</h1>
+`;
+
+exports[`HeadingRuby h2タグが正しく設定されること 1`] = `
+<h2
+  class="undefined"
+>
+  <span
+    class="block text-base text-gray-900"
+  >
+    見出し
+  </span>
+  <span
+    class="text-3xl font-bold"
+  >
+    見出し
+  </span>
+</h2>
+`;
+
+exports[`HeadingRuby h3タグが正しく設定されること 1`] = `
+<h3
+  class="undefined"
+>
+  <span
+    class="block text-base text-gray-900"
+  >
+    見出し
+  </span>
+  <span
+    class="text-3xl font-bold"
+  >
+    見出し
+  </span>
+</h3>
+`;
+
+exports[`HeadingRuby h4タグが正しく設定されること 1`] = `
+<h4
+  class="undefined"
+>
+  <span
+    class="block text-base text-gray-900"
+  >
+    見出し
+  </span>
+  <span
+    class="text-3xl font-bold"
+  >
+    見出し
+  </span>
+</h4>
+`;
+
+exports[`HeadingRuby h5タグが正しく設定されること 1`] = `
+<h5
+  class="undefined"
+>
+  <span
+    class="block text-base text-gray-900"
+  >
+    見出し
+  </span>
+  <span
+    class="text-3xl font-bold"
+  >
+    見出し
+  </span>
+</h5>
+`;
+
+exports[`HeadingRuby h6タグが正しく設定されること 1`] = `
+<h6
+  class="undefined"
+>
+  <span
+    class="block text-base text-gray-900"
+  >
+    見出し
+  </span>
+  <span
+    class="text-3xl font-bold"
+  >
+    見出し
+  </span>
+</h6>
+`;
+
+exports[`HeadingRuby 子要素が正しく表示されること 1`] = `
+<h2
+  class="undefined"
+>
+  <span
+    class="block text-base text-gray-900"
+  >
+    見出し
+  </span>
+  <span
+    class="text-3xl font-bold"
+  >
+    見出し
+  </span>
+</h2>
+`;

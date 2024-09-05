@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FormStripeLayout 子コンポーネントを正しくレンダリングすること 1`] = `
+<div>
+  <div
+    data-testid="StripeContextProvider"
+  >
+    <div>
+      子コンポーネント
+    </div>
+  </div>
+</div>
+`;

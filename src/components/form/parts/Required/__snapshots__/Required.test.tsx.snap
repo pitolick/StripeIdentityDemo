@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Requiredコンポーネント requiredが未入力の場合、"必須"と表示されること 1`] = `
+<span
+  class="text-xs text-center px-1.5 md:px-3 py-1 rounded-md whitespace-nowrap bg-red text-white"
+>
+  必須
+</span>
+`;
+
+exports[`Requiredコンポーネント 任意項目の場合、"任意"と表示されること 1`] = `
+<span
+  class="text-xs text-center px-1.5 md:px-3 py-1 rounded-md whitespace-nowrap bg-gray-500 text-white"
+>
+  任意
+</span>
+`;
+
+exports[`Requiredコンポーネント 必須項目の場合、"必須"と表示されること 1`] = `
+<span
+  class="text-xs text-center px-1.5 md:px-3 py-1 rounded-md whitespace-nowrap bg-red text-white"
+>
+  必須
+</span>
+`;

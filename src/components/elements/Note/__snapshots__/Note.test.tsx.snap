@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Noteコンポーネント listが空の場合、空の要素が返されること 1`] = `<div />`;
+
+exports[`Noteコンポーネント tagが"ol"の場合、正しいクラスが設定されること 1`] = `
+<div>
+  <ol>
+    <li
+      class="text-xs text-gray-700 before:me-1 ps-4 -indent-4 note-ol"
+    >
+      注釈1
+    </li>
+    <li
+      class="text-xs text-gray-700 before:me-1 ps-4 -indent-4 note-ol"
+    >
+      注釈2
+    </li>
+    <li
+      class="text-xs text-gray-700 before:me-1 ps-4 -indent-4 note-ol"
+    >
+      注釈3
+    </li>
+  </ol>
+</div>
+`;
+
+exports[`Noteコンポーネント tagが"ul"の場合、正しいクラスが設定されること 1`] = `
+<div>
+  <ul>
+    <li
+      class="text-xs text-gray-700 before:me-1 ps-4 -indent-4 before:content-['※']"
+    >
+      注釈1
+    </li>
+    <li
+      class="text-xs text-gray-700 before:me-1 ps-4 -indent-4 before:content-['※']"
+    >
+      注釈2
+    </li>
+    <li
+      class="text-xs text-gray-700 before:me-1 ps-4 -indent-4 before:content-['※']"
+    >
+      注釈3
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`Noteコンポーネント 正しくレンダリングされること 1`] = `
+<div>
+  <ul>
+    <li
+      class="text-xs text-gray-700 before:me-1 ps-4 -indent-4 before:content-['※']"
+    >
+      注釈1
+    </li>
+    <li
+      class="text-xs text-gray-700 before:me-1 ps-4 -indent-4 before:content-['※']"
+    >
+      注釈2
+    </li>
+    <li
+      class="text-xs text-gray-700 before:me-1 ps-4 -indent-4 before:content-['※']"
+    >
+      注釈3
+    </li>
+  </ul>
+</div>
+`;

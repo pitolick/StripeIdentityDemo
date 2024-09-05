@@ -1,0 +1,17 @@
+{
+  // 以下でSave時の動きを設定
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  // 以下でVSCodeの他の機能によるフォーマットとの競合を防ぐ
+  "html.format.enable": false,
+  "javascript.format.enable": false,
+  "json.format.enable": false,
+
+  // Tailwind CSSのIntelliSenseを有効にする
+  "files.associations": {
+    "*.css": "tailwindcss"
+  }
+}

@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FormStripeコンポーネント 正しくレンダリングされること 1`] = `
+<div>
+  <div
+    class="container max-w-5xl pb-10 pt-5 md:pb-32 md:pt-14"
+  >
+    <div>
+      FormStripeInputClient
+    </div>
+  </div>
+</div>
+`;

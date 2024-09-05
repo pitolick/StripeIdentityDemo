@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Textareaコンポーネント classNameプロパティが指定された場合、正しく適用されること 1`] = `
+<div>
+  <textarea
+    class="text-red block w-full rounded-md border border-gray-500 px-3 py-2 text-sm md:px-5  md:py-3 md:text-base"
+  />
+</div>
+`;
+
+exports[`Textareaコンポーネント 正しくレンダリングされていること 1`] = `
+<div>
+  <textarea
+    class=" block w-full rounded-md border border-gray-500 px-3 py-2 text-sm md:px-5  md:py-3 md:text-base"
+  />
+</div>
+`;

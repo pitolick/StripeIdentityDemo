@@ -1,0 +1,97 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HeadingLine class名が正しく設定されること 1`] = `
+<h2
+  class="text-red relative pb-4 font-bold before:absolute before:bottom-0 before:block before:w-full before:border-b-4 before:border-solid before:border-gray-500 before:content-[''] after:absolute after:bottom-0 after:block after:w-1/6 after:border-b-4 after:border-solid after:border-gray-900 after:content-['']"
+>
+  <span
+    class="relative"
+  >
+    見出し
+  </span>
+</h2>
+`;
+
+exports[`HeadingLine h1タグが正しく設定されること 1`] = `
+<h1
+  class="undefined relative pb-4 font-bold before:absolute before:bottom-0 before:block before:w-full before:border-b-4 before:border-solid before:border-gray-500 before:content-[''] after:absolute after:bottom-0 after:block after:w-1/6 after:border-b-4 after:border-solid after:border-gray-900 after:content-['']"
+>
+  <span
+    class="relative"
+  >
+    見出し
+  </span>
+</h1>
+`;
+
+exports[`HeadingLine h2タグが正しく設定されること 1`] = `
+<h2
+  class="undefined relative pb-4 font-bold before:absolute before:bottom-0 before:block before:w-full before:border-b-4 before:border-solid before:border-gray-500 before:content-[''] after:absolute after:bottom-0 after:block after:w-1/6 after:border-b-4 after:border-solid after:border-gray-900 after:content-['']"
+>
+  <span
+    class="relative"
+  >
+    見出し
+  </span>
+</h2>
+`;
+
+exports[`HeadingLine h3タグが正しく設定されること 1`] = `
+<h3
+  class="undefined relative pb-4 font-bold before:absolute before:bottom-0 before:block before:w-full before:border-b-4 before:border-solid before:border-gray-500 before:content-[''] after:absolute after:bottom-0 after:block after:w-1/6 after:border-b-4 after:border-solid after:border-gray-900 after:content-['']"
+>
+  <span
+    class="relative"
+  >
+    見出し
+  </span>
+</h3>
+`;
+
+exports[`HeadingLine h4タグが正しく設定されること 1`] = `
+<h4
+  class="undefined relative pb-4 font-bold before:absolute before:bottom-0 before:block before:w-full before:border-b-4 before:border-solid before:border-gray-500 before:content-[''] after:absolute after:bottom-0 after:block after:w-1/6 after:border-b-4 after:border-solid after:border-gray-900 after:content-['']"
+>
+  <span
+    class="relative"
+  >
+    見出し
+  </span>
+</h4>
+`;
+
+exports[`HeadingLine h5タグが正しく設定されること 1`] = `
+<h5
+  class="undefined relative pb-4 font-bold before:absolute before:bottom-0 before:block before:w-full before:border-b-4 before:border-solid before:border-gray-500 before:content-[''] after:absolute after:bottom-0 after:block after:w-1/6 after:border-b-4 after:border-solid after:border-gray-900 after:content-['']"
+>
+  <span
+    class="relative"
+  >
+    見出し
+  </span>
+</h5>
+`;
+
+exports[`HeadingLine h6タグが正しく設定されること 1`] = `
+<h6
+  class="undefined relative pb-4 font-bold before:absolute before:bottom-0 before:block before:w-full before:border-b-4 before:border-solid before:border-gray-500 before:content-[''] after:absolute after:bottom-0 after:block after:w-1/6 after:border-b-4 after:border-solid after:border-gray-900 after:content-['']"
+>
+  <span
+    class="relative"
+  >
+    見出し
+  </span>
+</h6>
+`;
+
+exports[`HeadingLine 子要素が正しく表示されること 1`] = `
+<h2
+  class="undefined relative pb-4 font-bold before:absolute before:bottom-0 before:block before:w-full before:border-b-4 before:border-solid before:border-gray-500 before:content-[''] after:absolute after:bottom-0 after:block after:w-1/6 after:border-b-4 after:border-solid after:border-gray-900 after:content-['']"
+>
+  <span
+    class="relative"
+  >
+    見出し
+  </span>
+</h2>
+`;

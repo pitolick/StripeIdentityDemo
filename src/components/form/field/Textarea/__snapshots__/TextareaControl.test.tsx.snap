@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TextareaControl デフォルト値が正しく設定されること 1`] = `
+<div>
+  <div
+    class="false space-y-2 false"
+  >
+    <div
+      class="space-y-2 false"
+    >
+      <div
+        class="flex w-full items-center justify-start gap-x-3"
+      >
+        <textarea
+          class="  block w-full rounded-md border border-gray-500 px-3 py-2 text-sm md:px-5  md:py-3 md:text-base"
+          id="textarea"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`TextareaControl 正しくレンダリングされること 1`] = `
+<div>
+  <div
+    class="w-full flex-auto space-y-2 false"
+  >
+    <div
+      class="flex items-center justify-start gap-x-2"
+    >
+      <span
+        class="text-xs text-center px-1.5 md:px-3 py-1 rounded-md whitespace-nowrap bg-red text-white"
+      >
+        必須
+      </span>
+      <label
+        class="block text-sm font-bold"
+        for="textarea"
+      >
+        テキストエリア
+      </label>
+    </div>
+    <div
+      class="space-y-2 false"
+    >
+      <div
+        class="flex w-full items-center justify-start gap-x-3"
+      >
+        <textarea
+          class="bg-red-pale outline outline-red outline-2 -outline-offset-2 custom-class block w-full rounded-md border border-gray-500 px-3 py-2 text-sm md:px-5  md:py-3 md:text-base"
+          id="textarea"
+        />
+      </div>
+      <ul>
+        <li
+          class="text-xs text-gray-700 before:me-1 ps-4 -indent-4 before:content-['※']"
+        >
+          テキストエリアの説明
+        </li>
+      </ul>
+      <p
+        class="text-sm text-red"
+      />
+    </div>
+  </div>
+</div>
+`;

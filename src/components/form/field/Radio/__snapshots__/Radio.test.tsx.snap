@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Radio デフォルト値が正しく設定されること 1`] = `
+<div>
+  <label
+    class=" cursor-pointer"
+  >
+    <input
+      class="focus:ring-transparent "
+      id="my-radio"
+      type="radio"
+    />
+  </label>
+</div>
+`;
+
+exports[`Radio 正しくレンダリングされること 1`] = `
+<div>
+  <label
+    class="custom-label cursor-pointer"
+  >
+    <input
+      class="focus:ring-transparent custom-radio"
+      id="my-radio"
+      label="ラジオ"
+      type="radio"
+    />
+    <span
+      class="text-sm md:text-base"
+    >
+      ラベルコンテンツ
+    </span>
+  </label>
+</div>
+`;
