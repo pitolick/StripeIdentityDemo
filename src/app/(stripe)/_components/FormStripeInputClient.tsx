@@ -9,6 +9,7 @@ import { formStripeDefaultValuesType, getSchema } from '../_config'
 import { StripeInputContents } from '../_components'
 import { useForm, FormProvider } from 'react-hook-form'
 import { zodResolver } from '@hookform/resolvers/zod'
+import { QR } from './QR'
 
 export const FormStripeInputClient: React.FC = () => {
   const [isSubmitting, setIsSubmitting] = useState(false)
@@ -33,8 +34,16 @@ export const FormStripeInputClient: React.FC = () => {
             お客様情報の入力
           </HeadingLine>
 
+          <div className="my-8 hidden md:block">
+            <QR />
+          </div>
+
           <div>
             <StripeInputContents />
+          </div>
+
+          <div className="my-8 hidden md:block">
+            <QR />
           </div>
 
           <div className="mt-16 flex flex-col items-center justify-center gap-5 md:flex-row">
