@@ -34,16 +34,8 @@ export const FormStripeInputClient: React.FC = () => {
             お客様情報の入力
           </HeadingLine>
 
-          <div className="my-8 hidden md:block">
-            <QR />
-          </div>
-
           <div>
             <StripeInputContents />
-          </div>
-
-          <div className="my-8 hidden md:block">
-            <QR />
           </div>
 
           <div className="mt-16 flex flex-col items-center justify-center gap-5 md:flex-row">
